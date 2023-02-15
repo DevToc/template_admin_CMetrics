@@ -497,6 +497,8 @@
 
 			var chartBar1 = new ApexCharts(document.querySelector("#revenueMap"), options);
 			chartBar1.render();
+			var chartBar2 = new ApexCharts(document.querySelector("#revenueMap1"), options);
+			chartBar2.render();
 		 
 		 
 	 }

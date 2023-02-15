@@ -1,0 +1,10 @@
+.avatar {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  padding: 20px;
+}
+.avatar img {
+  width: 100%;
+  max-width: 100px;
+}
