@@ -16771,11 +16771,11 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
   border-radius: 0.375rem;
   margin-left: 0;
   border: 0;
-  background: #fff;
+  background: #20c997;
+  border: 1px solid white;
 }
 [direction=rtl][data-sidebar-style=full][data-layout=vertical] .menu-toggle .dlabnav .metismenu li > ul {
   left: auto;
-  right: 5rem;
 }
 
 [data-sidebar-style=full][data-layout=vertical] .menu-toggle .dlabnav .metismenu li > ul li:hover ul {
@@ -16825,7 +16825,6 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 
 [data-sidebar-style=full][data-layout=vertical] .menu-toggle .dlabnav .metismenu > li:hover > a i {
   color: var(--primary);
-  /* background:$primary; */
 }
 [data-sidebar-style=full][data-layout=vertical] .menu-toggle .dlabnav .metismenu > li:hover > ul {
   height: auto !important;
@@ -31945,6 +31944,10 @@ code {
 }
 .table .thead-primary th {
   background-color: var(--primary);
+  color: #fff;
+}
+.table .thead-my th {
+  background-color: #2dd6a3de;
   color: #fff;
 }
 .table .thead-info th {

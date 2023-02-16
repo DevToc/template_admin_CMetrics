@@ -200,12 +200,31 @@
 	var flotLine3 = function(){
 		var newCust2 = [[0, 10], [1, 7], [2, 8], [3, 9], [4, 6], [5, 5], [6, 7]];
 		var retCust2 = [[0, 8], [1, 5], [2, 6], [3, 8], [4, 4], [5, 3], [6, 6]];
+		var newCust3 = [[0, 1], [1, 2], [2, 10], [3, 10], [4, 9], [5, 9], [6, 8]];
+		var newCust4 = [[0, 4], [1, 9], [2, 9], [3, 9], [4, 5], [5, 1], [6, 10]];
+		var newCust1 = [[0, 9], [1, 1], [2, 9], [3, 4], [4, 3], [5, 3], [6, 9]];
+
 		
 		var plot = $.plot($('#flotLine3'), [
 			{
 				data: newCust2,
 				label: 'New Customer',
 				color: '#FFA7D7'
+			},
+			{
+				data: newCust1,
+				label: 'Agent',
+				color: '#aaaaaa'
+			},
+			{
+				data: newCust3,
+				label: 'User1',
+				color: '#faaaaf'
+			},
+			{
+				data: newCust4,
+				label: 'New Customer1',
+				color: '90af90'
 			},
 			{
 				data: retCust2,

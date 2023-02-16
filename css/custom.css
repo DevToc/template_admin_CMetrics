@@ -8,3 +8,13 @@
   width: 100%;
   max-width: 100px;
 }
+.card-header {
+  background-color: #20c997;
+}
+.item-title {
+ bottom: -15px;
+ color: #000000 !important;
+}
+.legendLabel {
+  color: black;
+}

@@ -28,7 +28,7 @@
 							data: [65, 59, 80, 81, 56, 55, 40],
 							borderColor: 'rgba(136,108,192, 1)',
 							borderWidth: "0",
-							backgroundColor: 'rgba(136,108,192, 1)'
+							backgroundColor: 'rgba(32,201,150, 1)'
 						}
 					]
 				},

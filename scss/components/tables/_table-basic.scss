@@ -183,6 +183,10 @@
         background-color: var(--primary);
         color: $white;
     }
+		.thead-my th {
+			background-color: #2dd6a3de;
+        color: $white;
+		}
 	.thead-info th {
         background-color: $info;
         color: $white;
