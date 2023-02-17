@@ -18,3 +18,8 @@
 .legendLabel {
   color: black;
 }
+ul, span.current {
+  font-family: 'Lato', 'Font Awesome 5 Free';
+    font-weight: 900;
+    color: black;
+}
